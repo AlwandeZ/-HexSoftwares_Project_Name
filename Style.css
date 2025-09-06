@@ -1,0 +1,172 @@
+*{
+    margin:  0;
+    padding:  0;
+
+}
+.main
+{
+    width:100%;
+    background:linear-gradient(to top ,rgb(0,0,0,0.5)50%,rgb(0,0,0,0.50%)), url('pic/pexels-realtoughcandy-11035473.jpg');
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+     width:86%;
+     display:flex;
+     margin: auto;
+     padding:15px 0;
+     align-items: center;
+     justify-content:space-between ;
+}
+.menu {
+
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left:  14%;
+}
+ul li{
+
+    list-style:none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+ul li a{
+text-decoration: none;
+    color: #3619a0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    transition: .3s ease;
+}
+ul li a:hover{
+
+    color:rgb(230,104,59)
+
+}
+.search-box{
+
+    float:right;
+    width: 240px;
+    background:#fff;
+    height:30px;
+    padding :8px;
+    border-radius: 15px;
+    margin-top:1%;
+    margin-right:2%;
+}
+.search-box .search-txt{
+
+    width: 190px;
+    padding: 0 6px;
+}
+.search-btn{
+
+    text-decoration: none;
+    color:#000;
+    display : flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height:30px;
+}
+
+.info{
+
+    margin-left:7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: size 65px;
+    color: rgb(36,32,30);
+
+}
+.info h3{
+
+    font: size 18px;
+    letter-spacing: 1px;
+    line-height:24px;
+
+}
+.info h4{
+    text-decoration: none;
+    color: #cc1111;
+    background: rgb(36,32,30);
+    margin:26px 0%;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display:inline-block;
+
+}
+
+.info span{
+
+    color: rgb(230,104,59);
+}
+.info a {
+text-decoration: none;
+    color: #1aca90;
+    background: rgb(36,32,30);
+    margin:26px 0%;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display:inline-block;
+}
+.info p{
+    font: size 18px;
+    letter-spacing: 1px;
+    line-height:24px;
+}
+.info a:hover{
+
+       background:rgb(59,174,209);
+}
+.info p:hover{
+
+       background:rgb(59,174,209);
+}
+.image{
+
+    width: 50%;
+    height: 80%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.image img{
+position: absolute;
+    height: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    bottom:0%;
+    transition:left 2s ease;
+}
+.image:hover .girl
+{
+    left:55%;
+}
+.icons ion-icon{
+margin-left: 7%;
+    color:#000;
+    margin-right: -60px;
+    font-size:40px ;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+
+       color: rgb(230,104,59);
+}
